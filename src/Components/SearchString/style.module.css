@@ -1,0 +1,61 @@
+.InputSearchContainer {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.InputSearchString {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.InputSearchICon {
+    background-image: url("../../img/svg/search.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1.4rem;
+    height: 1.4rem;
+    display: none;
+  }
+
+.InputSearch {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 3px 5px 3px 20px;
+    font-size: 16px;
+    background-color: #7fb6c765;
+    width: 250px;
+    color: white;
+    border-radius: 10px;
+}
+
+.InputSearch::placeholder {
+    color: white;
+    opacity: 0.6;
+}
+
+.Title {
+    color: white;
+}
+
+.FavoriteCities {
+    display: flex;
+    gap: 7px;
+    color: white;
+    margin-top: 5px;
+}
+
+.CityName {
+    background-color: #7fb6c765;
+    border-radius: 10px;
+    padding: 1px 7px;
+    cursor: pointer;
+}

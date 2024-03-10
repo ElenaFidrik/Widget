@@ -1,0 +1,10 @@
+.WeatherWeek {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.ForecastContainer {
+    display: flex;
+    gap: 12px;
+    margin-top: 50px;
+}

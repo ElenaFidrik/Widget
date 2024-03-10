@@ -1,0 +1,13 @@
+.btnGeolocation {
+    border: none;
+    border-radius: 10px;
+    margin-left: 2px;
+    background-image: url("../../img/svg/location.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #7fb6c765;
+    opacity: 0.8;
+    cursor: pointer;
+}
